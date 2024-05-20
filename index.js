@@ -37,7 +37,7 @@
 //Question: 12------------- Remove of Duplicate
 const removeDuplicates =(arr) =>{
     let newArr = [...new Set(arr)]
-    return newAr12r
-12
+    return newArr
 
-console.log(remo12veDuplicates([1, 2, 3, 1, 2, 9,3, 4,6 ,5]))
+}
+console.log(removeDuplicates([1, 2, 3, 1, 2, 9,3, 4,6 ,5]))
