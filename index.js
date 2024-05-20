@@ -1,3 +1,6 @@
+
+
+// Question:9
 const calculateavarage = (arr) => {
     // const total = arr.reduce((accum, currEle) => accum + currEle, 0)
     // console.log(total)
@@ -11,3 +14,4 @@ const calculateavarage = (arr) => {
 
 console.log((calculateavarage([5,100,2, 8])))
 
+// Question: 10
