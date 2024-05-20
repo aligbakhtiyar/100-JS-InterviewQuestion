@@ -35,9 +35,24 @@
 
 
 //Question: 12------------- Remove of Duplicate
-const removeDuplicates =(arr) =>{
-    let newArr = [...new Set(arr)]
-    return newArr
+// const removeDuplicates =(arr) =>{
+//     let newArr = [...new Set(arr)]
+//     return newArr
+// }
+// console.log(removeDuplicates([1, 2, 3, 1, 2, 9,3, 4,6 ,5]))
 
-}
-console.log(removeDuplicates([1, 2, 3, 1, 2, 9,3, 4,6 ,5]))
+//Question: 13------------- Count of Vowels
+// const countVowels = (str) => {
+//     let vowels = ['a', 'e', 'i', 'o', 'u']
+    
+//     let arr = str.split('')
+//     console.log(arr)
+//     let count= 0;
+//     for (let char of arr){
+//         if (vowels.includes(char.toLowerCase()))
+//             count++
+//     } 
+//     return count
+// }
+// console.log((countVowels('Hello Word')))
+// console.log((countVowels('The quick brown fox')))
