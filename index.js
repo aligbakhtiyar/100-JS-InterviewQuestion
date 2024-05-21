@@ -175,9 +175,15 @@
 // console.log((countVowels('Hello Word')))
 // console.log((countVowels('The quick brown fox')))
 
-//Question: 14------------- Count of Vowels
-  const countVowels = () => {
+//Question: 14------------- Find out Power of 2
+  const isPowerofTwo = (num) => {
+    let op = false;
+    for(let   i=1; i<num; i++){
+        if (2**i ===num)
+            op=true
+    }
+    return op;
 
   }
-console.log((countVowels('Hello Word')))
-console.log((countVowels('The quick brown fox')))
+console.log((isPowerofTwo(0)))
+console.log((isPowerofTwo(16)))
