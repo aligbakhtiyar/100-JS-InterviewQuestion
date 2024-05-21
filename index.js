@@ -58,8 +58,8 @@
 // console.log((countVowels('The quick brown fox')))
 
 //Question: 14------------- Count of Vowels
-  const countVowels = () => {
+//   const countVowels = () => {
 
-  }
-console.log((countVowels('Hello Word')))
-console.log((countVowels('The quick brown fox')))
+//   }
+// console.log((countVowels('Hello Word')))
+// console.log((countVowels('The quick brown fox')))
