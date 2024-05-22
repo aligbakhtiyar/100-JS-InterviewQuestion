@@ -176,14 +176,68 @@
 // console.log((countVowels('The quick brown fox')))
 
 //Question: 14------------- Find out Power of 2
-  const isPowerofTwo = (num) => {
-    let op = false;
-    for(let   i=1; i<num; i++){
-        if (2**i ===num)
-            op=true
-    }
-    return op;
+//   const isPowerofTwo = (num) => {
+//     let op = false;
+//     for(let   i=1; i<num; i++){
+//         if (2**i ===num)
+//             op=true
+//     }
+//     return op;
 
-  }
-console.log((isPowerofTwo(0)))
-console.log((isPowerofTwo(16)))
+//   }
+// console.log((isPowerofTwo(0)))
+// console.log((isPowerofTwo(16)))
+
+
+//Question: 15------------- sum of square
+//  const sumofSqures = (arr)=>{
+//     // return arr.reduce((accum, currelm) => (accum = accum + currelm *currelm), 0)
+//     let sum = 0;
+//     for (let ele of arr){
+//         sum = sum + ele * ele
+//     }
+//     return sum;
+//  }
+// console.log(sumofSqures([1,9,2]))
+
+//Question: 16------------- find a minimum
+//  const findMin =(arr)=>{
+//     let sortarr =arr.sort((a,b) => a-b)
+//     return sortarr[0] 
+//  }
+// console.log((findMin([-5, -1,-2,8])))
+// console.log((findMin([5, 10,-2, -8])))
+
+//Question: 17------------- 
+//Question: 18------------
+
+//Question: 19------------- revreseString
+
+//Question: 22------------- find a median
+// const findMedain = (arr) => {
+//       arr.sort((a,b) => b-a)
+//       const middle = Math.floor(arr.length /2)
+//       if (arr.length % 2 === 0){
+//         return (arr[middle-1] + (arr[middle]))/2
+//       } else {
+//         return arr[middle]
+//       }
+// }
+// console.log(findMedain([5,3,9,1, 7]))
+// console.log(findMedain([2, 1,9, 8]))
+// console.log(findMedain([1,3,5,7,9,11]))
+
+//Question: 23------------- Count of array element
+ function countElement (array){
+    let count = {};
+ array.forEach(element => {
+     if (count[element]){
+         count[element]++;
+        }else{
+            count[element]= 1
+        }
+    })
+    return count
+ }
+ let array = [1,1,1,2,2,3,4,5,5,5,6]
+ console.log(countElement(array))
